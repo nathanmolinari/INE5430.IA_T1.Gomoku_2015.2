@@ -5,7 +5,6 @@ import java.util.ArrayList;
 
 import DTO.CadastroDoJogadorDTO;
 import DTO.VisualizacaoDoJogoDTO;
-import Visao.GomokuVisao;
 import Enumeracao.AlinhamentoEnum;
 import Excecao.CamposPreenchidosDeFormaIncorretaException;
 import Modelo.Gomoku;
@@ -13,6 +12,7 @@ import Modelo.JogadorAbstrato;
 import Modelo.JogadorArtificial;
 import Modelo.JogadorNatural;
 import Modelo.Tabuleiro;
+import Visao.GomokuVisao;
 
 public class GomokuControle{
 	private final static GomokuVisao VISAO = new GomokuVisao();

@@ -1,9 +1,9 @@
 package Modelo;
 
-import Primitiva.EstadoDoJogo;
-import Primitiva.Jogada;
 import Controle.JogadorNaturalControle;
 import Enumeracao.AlinhamentoEnum;
+import Primitiva.EstadoDoJogo;
+import Primitiva.Jogada;
 
 public class JogadorNatural extends JogadorAbstrato{
 	private final JogadorNaturalControle CONTROLE = new JogadorNaturalControle(); 

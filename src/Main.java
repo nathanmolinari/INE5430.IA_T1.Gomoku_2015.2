@@ -1,14 +1,6 @@
 
 
-import java.awt.Point;
-import java.util.HashMap;
-import java.util.HashSet;
-
 import Controle.GerenteDaAplicacao;
-import Enumeracao.AlinhamentoEnum;
-import Enumeracao.DirecaoEnum;
-import Enumeracao.SentidoEnum;
-import Modelo.SequenciaDePecas;
 
 public class Main {
 

@@ -2,6 +2,7 @@ package Visao;
 
 import java.awt.BorderLayout;
 import java.util.ArrayList;
+
 import javax.swing.ButtonGroup;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -63,7 +64,7 @@ public class GomokuVisao extends VisaoAbstrato{
 		CadastroDoJogadorDTO cadastroDoJogadorDTO = new CadastroDoJogadorDTO();
 		
 		ArrayList<Object> listaDeComponentes = new ArrayList<Object>();
-		listaDeComponentes.add("Entre com as informacoes do " + idJogador + "º jogador:");
+		listaDeComponentes.add("Entre com as informacoes do " + idJogador + "ï¿½ jogador:");
 	
 		JTextField campoIdentificador = new JTextField(3);
 			listaDeComponentes.add("Identificador:");

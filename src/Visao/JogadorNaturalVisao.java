@@ -16,6 +16,6 @@ public class JogadorNaturalVisao extends VisaoAbstrato{
 				"y:", coordenadaY
 		};
 		apresentarDialogoPersonalizado(listaDeComponentes, "Jogada de " + identificacao);
-		return new PosicaoDaJogadaDTO(coordenadaX.getText(), coordenadaY.getText());
+		return new PosicaoDaJogadaDTO(0, 0);
 	}
 }

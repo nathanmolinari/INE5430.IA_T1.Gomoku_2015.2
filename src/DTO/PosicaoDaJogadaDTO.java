@@ -4,8 +4,8 @@ public class PosicaoDaJogadaDTO {
 	public int coordenadaX;
 	public int coordenadaY;
 	
-	public PosicaoDaJogadaDTO(String x, String y){
-		coordenadaX = Integer.parseInt(x);
-		coordenadaY = Integer.parseInt(y);
+	public PosicaoDaJogadaDTO(int x, int y){
+		coordenadaX = x;
+		coordenadaY = y;
 	}
 }
